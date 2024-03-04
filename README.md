@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+## Marble AI assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### I've not used Daisy UI or refine template, I've made custom web app using react-charts
 
-## Available Scripts
+### Steps to run
 
-In the project directory, you can run:
+### Live Link : https://marble-ai-steel.vercel.app/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### we need node and react version 18 to run this project
+```bash
+1. git clone https://github.com/nitishsaini706/MarbleAI
+2. cd MarbleAi
+3. npm install
+4. npm start
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Features
+1. Data Comparison: Compares current data with previous data using solid and dashed lines.
+2. Interactive Elements: Offers Data comparison and on clicking tiles.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Assumptions
+1. I've used json data using states as no mock api was available on the web for financial data and that too with title and stats.
 
-### `npm run build`
+## Approach
+1. I first created the Shimmer component.
+2. Initially created component with static data for single line.
+3. Added functionalities like modal to update data, static data.
+4. Added prev value to show comparison.
+5. Finally added date range for data comparison.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Enhancements
+1. If data/api would have been provided better chart comparison
+2. If api would have been provided, many optimisations could have been done.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### ScreenShots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![alt text](image.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![alt text](image-1.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![alt text](image-2.png)
